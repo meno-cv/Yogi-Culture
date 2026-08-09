@@ -1,11 +1,671 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogi Culture</title>
+
+    <title>Yogi Culture | Herbal Skincare</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
+
 <body>
-    
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <img src="img/yogi logo.png" alt="Logo">
+
+                <span>Yogi Culture</span>
+
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">Our Story</a></li>
+
+                <li><a href="#products">Products</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-icons">
+
+                <i class="fa-solid fa-moon" id="darkMode"></i>
+
+                <i class="fa-solid fa-bars" id="menuBtn"></i>
+
+            </div>
+
+            <!-- <div class="cart-icon" id="cartIcon">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span id="cartCount">0</span> -->
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-left">
+
+            <h3>100% Natural Herbal Products</h3>
+
+            <h1>
+
+                Nature's Secret<br>
+
+                for Beautiful<br>
+
+                Skin & Hair
+
+            </h1>
+
+            <p>
+
+                Experience handmade herbal skincare and haircare
+
+                crafted using carefully selected natural ingredients.
+
+            </p>
+
+            <a href="#products" class="btn">
+
+                Explore Products
+
+            </a>
+
+        </div>
+
+        <div class="hero-right">
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <div class="about-image">
+
+            <img src="img/3 prod.jpg">
+
+        </div>
+
+        <div class="about-content">
+
+            <h4>ABOUT US</h4>
+
+            <h2>
+
+                Inspired by Nature,
+
+                Made with Love
+
+            </h2>
+
+            <p>
+
+                Yogi Culture believes in the power of nature.
+
+                Every soap and hair oil is carefully handmade
+
+                using herbal ingredients that nourish your skin
+
+                and hair without harsh chemicals.
+
+            </p>
+
+            <p>
+
+                Our goal is to create products that promote
+
+                healthy skin, strong hair, and confidence while
+
+                embracing the goodness of traditional herbal care.
+
+            </p>
+
+            <a href="#products" class="btn">
+
+                Our Products
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <section class="stats">
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="3">3</h2>
+
+            <p>Products</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="100">100</h2>
+
+            <p>% Herbal Ingredients</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2 class="counter" data-target="100">85+</h2>
+
+            <p>Happy Customers</p>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCTS SECTION  -->
+
+    <section id="products" class="products">
+
+        <div class="section-title">
+            <h4>OUR PRODUCTS</h4>
+            <h2>Natural Care, Beautiful Results</h2>
+            <p>
+                Discover our handcrafted herbal skincare and haircare products,
+                made with carefully selected natural ingredients.
+            </p>
+        </div>
+
+        <div class="product-container">
+
+            <!-- Hair Oil -->
+
+            <div class="product-card">
+
+                <img src="img/Herbal hair oil.jpeg" alt="Hair Oil">
+
+                <div class="product-info">
+
+                    <span class="badge">
+
+                        100% Herbal
+
+                    </span>
+
+                    <h3>Kesha Tharangani Hair Oil</h3>
+
+                    <p class="size">120 ml</p>
+
+                    <p>
+                        Nourishes the scalp, strengthens hair and promotes healthy
+                        hair growth naturally.
+                    </p>
+
+                    <h4>Rs. 2,500</h4>
+
+                    <!-- <button class="btn addCart" data-name="Kesha Tharangani Hair Oil" data-price="2500">
+
+                        Add to Cart
+
+                    </button> -->
+
+                </div>
+
+            </div>
+
+            <!-- Turmeric Soap -->
+
+            <div class="product-card">
+
+                <img src="img/Tumeric Soap.jpeg" alt="Turmeric Soap">
+
+                <div class="product-info">
+
+                    <span class="badge">
+
+                        100% Herbal
+
+                    </span>
+
+                    <h3>Turmeric & Aththora Soap</h3>
+
+                    <p class="size">100g</p>
+
+                    <p>
+                        Brightens skin while helping reduce acne,
+                        dark spots and irritation.
+                    </p>
+
+                    <h4>Rs. 1,500</h4>
+
+                    <!-- <button class="btn addCart" data-name="Turmeric & Aththora Soap" data-price="1500">
+
+                        Add to Cart
+
+                    </button> -->
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Charcoal Soap -->
+
+            <div class="product-card">
+
+                <img src="img/Charcoal Soap.jpeg" alt="Charcoal Soap">
+
+                <div class="product-info">
+
+                    <span class="badge">
+
+                        100% Herbal
+
+                    </span>
+
+                    <h3>Charcoal & Multani Mitti Soap</h3>
+
+                    <p class="size">100g</p>
+
+                    <p>
+                        Deeply cleanses pores, removes excess oil
+                        and leaves skin refreshed.
+                    </p>
+
+                    <h4>Rs. 1,500</h4>
+                    <!-- <button class="btn addCart" data-name="Charcoal & Multani Mitti Soap" data-price="1500">
+
+                        Add to Cart
+
+                    </button> -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- WHY CHOOSE US  -->
+
+    <section class="features">
+
+        <div class="section-title">
+
+            <h4>WHY CHOOSE US</h4>
+
+            <h2>Pure Nature In Every Product</h2>
+
+        </div>
+
+        <div class="feature-container">
+
+            <div class="feature-box">
+
+                <i class="fa-solid fa-leaf"></i>
+
+                <h3>100% Herbal</h3>
+
+                <p>Made using natural herbal ingredients.</p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <i class="fa-solid fa-seedling"></i>
+
+                <h3>Handmade</h3>
+
+                <p>Crafted with care in small batches.</p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <i class="fa-solid fa-spa"></i>
+
+                <h3>Daily Use</h3>
+
+                <p>Gentle enough for everyday skincare.</p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <i class="fa-solid fa-heart"></i>
+
+                <h3>Natural Beauty</h3>
+
+                <p>Healthy skin and stronger hair naturally.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TESTIMONIALS  -->
+
+    <section class="testimonials">
+
+        <div class="section-title">
+
+            <h4>HAPPY CUSTOMERS</h4>
+
+            <h2>What Our Customers Say</h2>
+
+        </div>
+
+        <div class="testimonial-container">
+
+            <div class="testimonial">
+
+                <i class="fa-solid fa-quote-left"></i>
+
+                <p>
+                    The Turmeric Soap made my skin feel
+                    soft and fresh. Highly recommended!
+                </p>
+
+                <h4>★★★★★</h4>
+
+                <span>Happy Customer</span>
+
+            </div>
+
+            <div class="testimonial">
+
+                <i class="fa-solid fa-quote-left"></i>
+
+                <p>
+                    I've been using the Hair Oil regularly,
+                    and my hair feels healthier than ever.
+                </p>
+
+                <h4>★★★★★</h4>
+
+                <span>Happy Customer</span>
+
+            </div>
+
+            <div class="testimonial">
+
+                <i class="fa-solid fa-quote-left"></i>
+
+                <p>
+                    Love the herbal fragrance and natural
+                    ingredients. Definitely buying again.
+                </p>
+
+                <h4>★★★★★</h4>
+
+                <span>Happy Customer</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION  -->
+
+
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+
+            <h4>CONTACT US</h4>
+
+            <h2>Let's Stay Connected</h2>
+
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Yogi Culture</h3>
+
+                <p>Where Mind Meets Nature</p>
+
+                <a href="https://wa.me/741373023" class="whatsapp" target="_blank">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+
+                <p>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp Orders
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    hello@yogiculture.com
+                </p>
+
+            </div>
+
+            <form>
+
+                <input type="text" placeholder="Your Name">
+
+                <input type="email" placeholder="Email Address">
+
+                <textarea placeholder="Message"></textarea>
+
+                <button class="btn">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER  -->
+
+    <footer>
+
+        <svg viewBox="0 0 1440 320">
+
+            <path fill="#2E7D32"
+                d="M0,160L80,154.7C160,149,320,139,480,154.7C640,171,800,213,960,208C1120,203,1280,149,1360,122.7L1440,96L1440,320L0,320Z">
+
+            </path>
+
+        </svg>
+
+        <div class="footer-content">
+
+            <h2>
+
+                Yogi Culture
+
+            </h2>
+
+            <p>
+
+                Where Mind Meets Nature
+
+            </p>
+
+            <div class="socials">
+
+                <i class="fa-brands fa-facebook-f"></i>
+
+                <i class="fa-brands fa-instagram"></i>
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </div>
+
+            <p>
+
+                © 2026
+
+                Yogi Culture
+
+            </p>
+
+        </div>
+
+    </footer> 
+    <!-- ================= PRODUCT MODAL ================= -->
+
+    <!-- <div class="modal" id="productModal">
+
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalBenefits"></p>
+
+            <h3 id="modalPrice"></h3>
+
+            <a id="orderBtn" class="btn" target="_blank">
+
+                Order via WhatsApp
+
+            </a>
+
+        </div>
+
+    </div> -->
+
+    <!-- ------- -->
+
+
+    <!-- ================= CHECKOUT MODAL ================= -->
+
+    <!-- <div class="checkout-modal" id="checkoutModal">
+
+        <div class="checkout-box">
+
+            <span class="closeCheckout">&times;</span>
+
+            <h2>Complete Your Order</h2>
+
+            <form id="checkoutForm">
+
+                <input type="text" id="customerName" placeholder="Full Name" required>
+
+                <input type="tel" id="customerPhone" placeholder="Phone Number" required>
+
+                <textarea id="customerAddress" placeholder="Delivery Address" required></textarea>
+
+                <textarea id="customerNotes" placeholder="Additional Notes (Optional)"></textarea>
+
+                <button type="submit" class="btn">
+
+                    Continue to WhatsApp
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div> -->
+
+
+    <!-- ================= LOADER ================= -->
+
+    <!-- <div class="loader">
+
+        <img src="images/logo.png" width="120">
+
+        <h2>Yogi Culture</h2>
+
+    </div> -->
+
+    <!-- ------  -->
+
+
+    <!-- ================= CART SIDEBAR ================= -->
+
+    <!-- <div class="cart" id="cart">
+
+        <div class="cart-header">
+
+            <h2>Your Cart</h2>
+
+            <i class="fa-solid fa-xmark" id="closeCart"></i>
+
+        </div>
+
+        <div id="cartItems">
+
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+
+        </div>
+
+        <div class="cart-footer">
+
+            <h3>
+
+                Total :
+                Rs. <span id="cartTotal">0</span>
+
+            </h3>
+
+            <button class="btn" id="checkoutBtn">
+
+                Checkout
+
+            </button>
+
+        </div> -->
+
+    <!-- </div>  -->
+
+
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
