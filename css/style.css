@@ -263,13 +263,14 @@ header {
     padding: 140px 9% 40px;
 
     background:
-        linear-gradient(rgba(248, 246, 239, .9),
-            rgba(248, 246, 239, .95)),
-        url(img/yogibg.jpg);
+       
+        url(img/imghome.png);
 
     background-size: cover;
 
 }
+
+
 
 .hero-left {
 
